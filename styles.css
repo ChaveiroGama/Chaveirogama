@@ -1,0 +1,84 @@
+/* Estilo global */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #000000;
+}
+
+/* Navbar */
+nav {
+  background-color: #000000;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Seções */
+section {
+  padding: 60px 20px;
+  margin-top: 60px;
+}
+
+/* Cores para cada seção */
+#home {
+  background-color: #e9e9e9;
+ position: relative;
+}
+
+#servicos {
+  background-color: #e0f7fa;
+}
+
+#produtos {
+  background-color: #e8f5e9;
+}
+
+#sobre {
+  background-color: #f3e5f5;
+}
+
+#contato {
+  background-color: #fff3e0;
+}
+
+/* Video de fundo */
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+img {
+  border-radius: 8px;
+}
+
+/* Animação e interatividade */
+nav a:hover, button:hover {
+  color: #e67e22;
+}
